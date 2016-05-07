@@ -2,22 +2,19 @@ GEM
   remote: https://rubygems.org/
   remote: https://gems.livingsocial.net/
   specs:
-    hashie (3.4.4)
-    json (1.8.3)
-    ls-api-client (1.7.2)
-      hashie (>= 1.2.0)
-      json
-      rest-client (~> 1.6.7)
-    mime-types (1.25.1)
+    ls-vanity (14.74.1)
+      redis (>= 2.0)
+      redis-namespace (> 1.0.0)
     rack (1.4.1)
-    rest-client (1.6.9)
-      mime-types (~> 1.16)
+    redis (3.3.0)
+    redis-namespace (1.5.2)
+      redis (~> 3.0, >= 3.0.4)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  ls-api-client (= 1.7.2)
+  ls-vanity (= 14.74.1)
   rack (= 1.4.1)
 
 BUNDLED WITH
