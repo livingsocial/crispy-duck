@@ -1,12 +1,21 @@
 GEM
+  remote: https://rubygems.org/
+  remote: https://gems.livingsocial.net/
   specs:
-    rack (1.6.4)
+    ls-vanity (14.74.1)
+      redis (>= 2.0)
+      redis-namespace (> 1.0.0)
+    rack (1.4.1)
+    redis (3.3.0)
+    redis-namespace (1.5.2)
+      redis (~> 3.0, >= 3.0.4)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  rack
+  ls-vanity (= 14.74.1)
+  rack (= 1.4.1)
 
 BUNDLED WITH
    1.11.2
